@@ -1,0 +1,147 @@
+/* WaveBox styles
+   Dark background and a simple list you can click to play songs. */
+
+:root {
+  --bg: #111318;
+  --panel: #1a1d24;
+  --text: #f2f2f2;
+  --muted: #9aa0ad;
+  --line: #2b303b;
+  --accent: #4f8cff;
+  --active: #243047;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  padding-bottom: 5.5rem;
+}
+
+.site-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.tagline {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.panel h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.track-count {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.now-playing {
+  margin: 0.75rem 0 0;
+  color: var(--accent);
+  font-size: 1.05rem;
+}
+
+.track-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.track-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0.75rem;
+  border-top: 1px solid var(--line);
+  cursor: pointer;
+}
+
+.track-item:first-child {
+  border-top: none;
+}
+
+.track-item:hover {
+  background: #222733;
+}
+
+.track-item.active {
+  background: var(--active);
+}
+
+.track-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.track-meta {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.track-genre {
+  color: var(--muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.player-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0d0f14;
+  border-top: 1px solid var(--line);
+  padding: 0.75rem 1rem;
+}
+
+audio {
+  width: 100%;
+}
+
+.empty-message {
+  margin: 0;
+  color: var(--muted);
+}
+
+.status {
+  margin: 0;
+  color: #ff8f8f;
+}

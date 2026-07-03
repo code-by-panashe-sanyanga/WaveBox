@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WaveBox</title>
+  <!-- Paths start with /static because FastAPI serves files from that folder -->
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>WaveBox</h1>
+    <p class="tagline">A small music player for my web dev coursework</p>
+  </header>
+
+  <main class="page">
+    <!-- JavaScript fills this in after it loads the tracks -->
+    <section class="panel">
+      <h2>Now playing</h2>
+      <p id="now-playing" class="now-playing">Pick a track below to start</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Tracks</h2>
+        <p id="track-count" class="track-count">Loading...</p>
+      </div>
+      <ul id="tracks" class="track-list"></ul>
+    </section>
+  </main>
+
+  <footer class="player-bar">
+    <audio id="player" controls></audio>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
