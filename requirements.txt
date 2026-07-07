@@ -1,2 +1,7 @@
+# WaveBox Python dependencies
+# Install with: pip install -r requirements.txt
+
 fastapi==0.111.0
 uvicorn==0.30.1
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.3

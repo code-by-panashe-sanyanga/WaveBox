@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WaveBox — Log in</title>
+  <link rel="stylesheet" href="/static/style.css?v=5" />
+</head>
+<body>
+  <div class="auth-page">
+    <div class="auth-card">
+      <div class="brand auth-brand">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M3 14c2.5-1 4.5-4 7-4s4.5 3 7 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M3 10c2.5-1 4.5-4 7-4s4.5 3 7 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+          </svg>
+        </span>
+        <h1>WaveBox</h1>
+      </div>
+
+      <div class="auth-tabs">
+        <button type="button" id="tab-login" class="auth-tab active">Log in</button>
+        <button type="button" id="tab-register" class="auth-tab">Register</button>
+      </div>
+
+      <form id="login-form" class="auth-form">
+        <label>Username
+          <input id="login-username" type="text" autocomplete="username" value="demo" />
+        </label>
+        <label>Password
+          <input id="login-password" type="password" autocomplete="current-password" value="demo123" />
+        </label>
+        <button type="submit" class="auth-submit">Log in</button>
+      </form>
+
+      <form id="register-form" class="auth-form hidden">
+        <label>Username
+          <input id="reg-username" type="text" autocomplete="username" />
+        </label>
+        <label>Display name
+          <input id="reg-display" type="text" autocomplete="name" />
+        </label>
+        <label>Password
+          <input id="reg-password" type="password" autocomplete="new-password" />
+        </label>
+        <button type="submit" class="auth-submit">Create account</button>
+      </form>
+
+      <p id="auth-msg" class="auth-msg" role="status"></p>
+      <p class="auth-hint">Demo account: <strong>demo</strong> / <strong>demo123</strong></p>
+    </div>
+  </div>
+
+  <script src="/static/auth.js?v=5"></script>
+  <script src="/static/login.js?v=5"></script>
+</body>
+</html>

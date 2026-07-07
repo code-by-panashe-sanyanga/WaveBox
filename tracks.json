@@ -4,6 +4,7 @@
     "title": "Night Drive",
     "artist": "Lofi Unit",
     "genre": "Lofi",
+    "cover": "https://placehold.co/800x800/1e3a5f/eef2ff?text=Night+Drive",
     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
   },
   {
@@ -11,6 +12,7 @@
     "title": "Soft Rain",
     "artist": "Lofi Unit",
     "genre": "Lofi",
+    "cover": "https://placehold.co/800x800/294a73/eef2ff?text=Soft+Rain",
     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
   },
   {
@@ -18,6 +20,7 @@
     "title": "City Lights",
     "artist": "Lofi Unit",
     "genre": "Lofi",
+    "cover": "https://placehold.co/800x800/305780/eef2ff?text=City+Lights",
     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
   },
   {
@@ -25,6 +28,7 @@
     "title": "Study Session",
     "artist": "Campus Beats",
     "genre": "Chill",
+    "cover": "https://placehold.co/800x800/13504a/eef2ff?text=Study+Session",
     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
   },
   {
@@ -32,6 +36,7 @@
     "title": "Late Night Code",
     "artist": "Campus Beats",
     "genre": "Chill",
+    "cover": "https://placehold.co/800x800/1d6a61/eef2ff?text=Late+Night+Code",
     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
   }
 ]

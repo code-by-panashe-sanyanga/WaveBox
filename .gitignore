@@ -9,4 +9,5 @@ build/
 *.log
 .DS_Store
 data/*.db
+data/users.json
 *.db
